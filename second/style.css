@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .product {
     display: grid;
     justify-content: center;
@@ -30,10 +28,23 @@
     padding: 10%;
 }
 
+.new {
+    text-align: center;
+    color: orange;
+    margin-bottom: -2.5em;
+}
+
 .price {
-    color: rgb(114, 114, 114);
+    
     padding-top: 1em;
     margin-bottom: 1em;
+    color: brown;
+}
+
+.sale {
+    color: rgb(114, 114, 114);
+    text-decoration: line-through;
+    margin-right: 0.5em;
 }
 
 .buy-button {
